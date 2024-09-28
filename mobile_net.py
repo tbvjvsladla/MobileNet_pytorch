@@ -424,7 +424,7 @@ if __name__ == '__main__':
     mobile_debug(model_2, resolution_multiplier=224)
 
     # MobileNetV1 인스턴스화 및 디버그
-    print("\n=== MobileNetV2 ===")
+    print("\n=== MobileNetV1 ===")
     model_1 = MobileNetV1(width_multiplier=1.0, 
                         Feature_ext_set=V1_setting, 
                         num_classes=1000).to(device)
